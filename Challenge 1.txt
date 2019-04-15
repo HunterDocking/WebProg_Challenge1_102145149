@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-size: 0;
+            margin: 0;
+            margin-top: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+        }
+        .grey, .blue2, .lightBlue2, .blue3, .lightBlue3, .lightGrey3 {
+            box-sizing: border-box;
+            padding: 15px;
+            padding-bottom: 25px;
+            padding-top: 25px;
+        }
+        .blue2, .lightBlue2, .blue3, .lightBlue3, .lightGrey3 {
+            display: inline-block;
+        }
+        .blue2, .lightBlue2{
+            width: calc(100% / 2)
+        }
+        .blue3, .lightBlue3, .lightGrey3{
+            width: calc(100% / 3)
+        }
+        .grey {
+            background-color: #263238
+        }
+        .blue2, .blue3 {
+            background-color: #1565C0
+        }
+        .lightBlue2, .lightBlue3 {
+            background-color: #42A5F5
+        }
+        .lightGrey3 {
+            background-color: #607D8B
+        }
+        .title {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 48px;
+            width: 26px;
+            padding-top: 25px;
+        }
+        .subTitle, .text{
+            padding-bottom: 5px;
+            color: rgb(179, 179, 179);
+        }
+        .text {
+            padding-bottom: 18px;
+        }
+        p, .whiteBox {
+            margin: 0;
+            padding: 3px;
+            background-color: #607D8B;
+            width: fit-content;
+        }
+        p {
+            background-color: #607D8B;
+            border-radius: 4px;
+        }
+        .whiteBox {
+            background-color: white;
+            color: #607D8B;
+        }
+        h1 {
+            font-size: 20px;
+            padding-left: 5px;
+            padding-top: 5px;
+        }
+        li, .text{
+            padding-top: 5px;
+            padding-bottom: 15px;
+            font-size: 12px;
+        }
+        .text {
+            padding-top: 10px;
+        }
+        li, .text, p, .whiteBox, a2 {
+            font-size: 12px;
+        }
+        a {
+            font-size: 10px;
+        }
+
+        
+    </style>
+<body>
+    <div class="grey">
+        <div class="title">
+            HUNTER
+            DOCKING
+        </div>
+        <div class="subTitle">
+            MY PARENTS CALL ME 'ARTISTIC'
+        </div>
+        <div class="text">
+            Only beginning to learn how to hold a pen properly because writing with your mouth is deemed inappropriate
+        </div>
+    </div>
+
+    <div class="blue2">
+        <h1>
+            ACADEMIC HISTORY
+        </h1>
+        <ul>
+            <li><b>MY PRIMARY SCHOOL</b> <a>Location, Shepparton 3630</a>
+            <p>January 2005 - November 2011</p>
+            <a2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa vitae, animi atque consequuntur aperiam tempora voluptatum expedita saepe ab?</a2>
+            </li>
+
+            <li><b>MY HIGH SCHOOL</b> <a>Location,  3630</a>
+            <p>February 2012 - November 2017</p>
+            <a2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa vitae, animi atque consequuntur aperiam tempora voluptatum expedita saepe ab?</a2>
+            </li>
+
+            <li><b>MY UNIVERSITY</b> <a>Location, Shepparton 3630</a>
+            <p>March 2019 - Current</p>
+            <a2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa vitae, animi atque consequuntur aperiam tempora voluptatum expedita saepe ab?</a2>
+            </li>
+        </ul>
+    </div>
+
+    <div class="lightBlue2">
+        <h1>
+            WORK EXPERIENCE
+        </h1>
+        <ul>
+            <li><b>TOTALLY REAL COMPANY AND STUFF</b> <a>Location, Shepparton 3630</a>
+            <p>May 2014- July 2014</p>
+            <a2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa vitae, animi atque consequuntur aperiam tempora voluptatum expedita saepe ab?</a2>
+            </li>   
+
+            <li><b>FAIRLEYS SUPA IGA</b> <a>Tatura, VIC, 3616</a>
+            <p>May 2015 - March 2019</p>
+            <a2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa vitae, animi atque consequuntur aperiam tempora voluptatum expedita saepe ab?</a2>
+            </li>
+
+            <li><b>FUTURE JOB</b> <a>Location, Shepparton 3630</a>
+            <p>FEBRUARY 2021 - FUTURE</p>
+            <a2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa vitae, animi atque consequuntur aperiam tempora voluptatum expedita saepe ab?</a2>
+            </li>
+        </ul>
+    </div>
+
+    
+<div class="blue3">
+        <h1>
+            ACADEMIC HISTORY
+        </h1>
+        <ul>
+            <li><b>MY PRIMARY SCHOOL</b> <a>Location, Shepparton 3630</a>
+            <p>January 2005 - November 2011</p>
+            <a2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa vitae, animi atque consequuntur aperiam tempora voluptatum expedita saepe ab?</a2>
+            </li>
+
+            <li><b>MY HIGH SCHOOL</b> <a>Location,  3630</a>
+            <p>February 2012 - November 2017</p>
+            <a2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa vitae, animi atque consequuntur aperiam tempora voluptatum expedita saepe ab?</a2>
+            </li>
+
+            <li><b>MY UNIVERSITY</b> <a>Location, Shepparton 3630</a>
+            <p>March 2019 - Current</p>
+            <a2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa vitae, animi atque consequuntur aperiam tempora voluptatum expedita saepe ab?</a2>
+            </li>
+        </ul>
+    </div>
+
+    <div class="lightBlue3">
+        <h1>
+            WORK EXPERIENCE
+        </h1>
+        <ul>
+            <li><b>TOTALLY REAL COMPANY AND STUFF</b> <a>Location, Shepparton 3630</a>
+            <p>May 2014- July 2014</p>
+            <a2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa vitae, animi atque consequuntur aperiam tempora voluptatum expedita saepe ab?</a2>
+            </li>   
+
+            <li><b>FAIRLEYS SUPA IGA</b> <a>Tatura, VIC, 3616</a>
+            <p>May 2015 - March 2019</p>
+            <a2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa vitae, animi atque consequuntur aperiam tempora voluptatum expedita saepe ab?</a2>
+            </li>
+
+            <li><b>FUTURE JOB</b> <a>Location, Shepparton 3630</a>
+            <p>February 2021 - Future</p>
+            <a2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa vitae, animi atque consequuntur aperiam tempora voluptatum expedita saepe ab?</a2>
+            </li>
+        </ul>
+    </div>
+
+    <div class="lightGrey3">
+        <h1>
+            WORK EXPERIENCE
+        </h1>
+        <ul>
+            <li><b>TOTALLY REAL COMPANY AND STUFF</b> <a>Location, Shepparton 3630</a>
+            <p class="whiteBox">May 2014- July 2014</p>
+            <a2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa vitae, animi atque consequuntur aperiam tempora voluptatum expedita saepe ab?</a2>
+            </li>   
+
+            <li><b>FAIRLEYS SUPA IGA</b> <a>Tatura, VIC, 3616</a>
+            <p class="whiteBox">May 2015 - March 2019</p>
+            <a2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa vitae, animi atque consequuntur aperiam tempora voluptatum expedita saepe ab?</a2>
+            </li>
+
+            <li><b>FUTURE JOB</b> <a>Location, Shepparton 3630</a>
+            <p class="whiteBox">February 2021 - Future</p>
+            <a2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa vitae, animi atque consequuntur aperiam tempora voluptatum expedita saepe ab?</a2>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
